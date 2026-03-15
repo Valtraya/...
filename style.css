@@ -5,7 +5,7 @@ body{font-family:'Roboto',sans-serif;background:#FFFFF4;color:#0E1A2B;}
 /* Header */
 header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#0E1A2B;color:white;}
 header .logo{display:flex;align-items:center;font-family:'Playfair Display', serif;font-weight:700;font-size:24px;color:white;}
-header .logo .logo-img{height:30px;margin-right:10px;}
+header .logo .logo-img{height:35px;margin-right:10px;}
 header nav a{margin:0 15px;color:white;text-decoration:none;font-weight:500;}
 header nav .signup{background:#5C0A17;padding:10px 20px;border:none;border-radius:8px;cursor:pointer;}
 
@@ -15,7 +15,7 @@ header nav .signup{background:#5C0A17;padding:10px 20px;border:none;border-radiu
 .hero h1{font-family:'Playfair Display', serif;font-size:48px;margin-bottom:15px;}
 .hero p{font-size:18px;margin-bottom:25px;}
 .hero button.ask{background:#5C0A17;color:white;padding:12px 30px;border:none;border-radius:10px;cursor:pointer;font-size:16px;}
-#heroGraph{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;}
+.hero-graph{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;object-fit:cover;}
 
 /* Search Box */
 .searchbox{margin:40px auto;text-align:center;}
@@ -32,7 +32,7 @@ header nav .signup{background:#5C0A17;padding:10px 20px;border:none;border-radiu
   padding:25px;
   width:90%;
   max-width:900px;
-  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 .ai-card h2{margin:15px 0;font-size:20px;}
 .ai-card ul{margin-left:20px;margin-bottom:15px;}
