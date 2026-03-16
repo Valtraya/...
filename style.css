@@ -1,4 +1,4 @@
-here*{
+*{
 margin:0;
 padding:0;
 box-sizing:border-box;
@@ -33,6 +33,7 @@ font-size:22px;
 .logo-img{
 height:35px;
 margin-right:10px;
+display:block;
 }
 
 nav a{
@@ -197,6 +198,17 @@ padding:22px;
 border-radius:20px;
 box-shadow:0 3px 10px rgba(0,0,0,0.05);
 text-align:left;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+}
+
+.card img{
+width:40px;
+height:40px;
+object-fit:contain;
+margin-bottom:12px;
+display:block;
 }
 
 .value{
@@ -228,6 +240,17 @@ background:#F1E6DB;
 padding:22px;
 border-radius:20px;
 box-shadow:0 3px 10px rgba(0,0,0,0.05);
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+}
+
+.learncard img{
+width:40px;
+height:40px;
+object-fit:contain;
+margin-bottom:12px;
+display:block;
 }
 
 /* Mobile */
@@ -262,4 +285,12 @@ padding:80px 0;
 font-size:32px;
 }
 
-  }
+/* smaller icons on phone */
+
+.card img,
+.learncard img{
+width:32px;
+height:32px;
+}
+
+}
