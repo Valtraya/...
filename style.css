@@ -155,11 +155,11 @@ width:90%;
 box-shadow:0 3px 10px rgba(0,0,0,0.05);
 }
 
-/* FIXED AI ICON */
+/* PERFECT ICON SIZE */
 
 .ai-card img{
-width:50px;
-height:50px;
+width:70px;
+height:70px;
 object-fit:contain;
 margin-bottom:15px;
 display:block;
@@ -214,8 +214,8 @@ align-items:flex-start;
 }
 
 .card img{
-width:40px;
-height:40px;
+width:55px;
+height:55px;
 object-fit:contain;
 margin-bottom:12px;
 display:block;
@@ -256,8 +256,8 @@ align-items:flex-start;
 }
 
 .learncard img{
-width:40px;
-height:40px;
+width:55px;
+height:55px;
 object-fit:contain;
 margin-bottom:12px;
 display:block;
@@ -295,17 +295,17 @@ padding:80px 0;
 font-size:32px;
 }
 
-/* smaller icons on phone */
+/* MOBILE ICON SIZE */
 
 .ai-card img{
-width:40px;
-height:40px;
+width:55px;
+height:55px;
 }
 
 .card img,
 .learncard img{
-width:32px;
-height:32px;
+width:45px;
+height:45px;
 }
 
 }
