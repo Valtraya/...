@@ -155,6 +155,16 @@ width:90%;
 box-shadow:0 3px 10px rgba(0,0,0,0.05);
 }
 
+/* FIXED AI ICON */
+
+.ai-card img{
+width:50px;
+height:50px;
+object-fit:contain;
+margin-bottom:15px;
+display:block;
+}
+
 .ai-header{
 display:flex;
 justify-content:space-between;
@@ -286,6 +296,11 @@ font-size:32px;
 }
 
 /* smaller icons on phone */
+
+.ai-card img{
+width:40px;
+height:40px;
+}
 
 .card img,
 .learncard img{
